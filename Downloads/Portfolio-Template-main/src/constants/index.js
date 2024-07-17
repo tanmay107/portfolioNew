@@ -30,7 +30,12 @@ import {
   flutter,
   projectOne,
   projectTwo,
-  sumaax
+  sumaax,
+  pinkblue,
+  heyhello,
+  apple,
+  android,
+  swift
 } from '../assets';
 
 export const navLinks = [
@@ -51,15 +56,15 @@ export const navLinks = [
 const services = [
   {
     title: 'Flutter',
-    icon: frontend,
+    icon: flutter,
   },
   {
     title: 'iOS',
-    icon: backend,
+    icon: apple,
   },
   {
     title: 'Android',
-    icon: ux,
+    icon: android,
   },
   {
     title: 'Fullstack Developer',
@@ -73,8 +78,8 @@ const technologies = [
     icon: flutter,
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Swift',
+    icon: swift,
   },
   {
     name: 'JavaScript',
@@ -128,32 +133,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Junior Developer',
+    company_name: 'Bliss Infosoft',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Nov 2019 - July 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Software Developer',
+    company_name: 'Instant Systems INC',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'July 2022 - Present',
   },
 ];
 
@@ -161,7 +152,7 @@ const projects = [
   {
     id: 'project-1',
     name: 'Ceekr',
-    description: 'A comic characters list app that displays Marvel characters.',
+    description: 'Ceekr is home to YogiMeter and hundreds of self-improvement philosophies, organizations, masters and seekers.',
     tags: [
       {
         name: 'react',
@@ -206,7 +197,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'Sumaax',
-    description: 'This is a single-page calculator app built with React',
+    description: 'Humanize is a global digital platform supporting personal development through an innovative science-based curriculum',
     tags: [
       {
         name: 'nextjs',
@@ -227,8 +218,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'PinkBlue',
+    description: `An ecommerce mobile application that specialises on medical equipments`,
     tags: [
       {
         name: 'nextjs',
@@ -243,15 +234,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: pinkblue,
+    repo: '',
+    demo: 'https://pinkblue.in/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Hey-Hello',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'A unique social media application that uses a digital medium for sharing contacts',
     tags: [
       {
         name: 'nextjs',
@@ -266,9 +257,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: heyhello,
+    repo: '',
+    demo: 'https://hey-hello.com/',
   },
 ];
 

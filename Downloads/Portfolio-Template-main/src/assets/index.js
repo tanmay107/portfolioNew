@@ -39,6 +39,9 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 import flutter from './tech/flutter.png';
+import apple from './tech/apple.png';
+import android from './tech/android.png';
+import swift from './tech/swift.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -54,6 +57,8 @@ import space from './projects/space-hub.png';
 import projectOne from './projects/project1.png';
 import projectTwo from './projects/project2.png';
 import sumaax from './projects/sumaax.png';
+import pinkblue from './projects/pinkblue.png'
+import heyhello from './projects/heyhello.png'
 
 export {
   bwmap,
@@ -105,5 +110,10 @@ export {
   flutter,
   projectOne,
   projectTwo,
-  sumaax
+  sumaax,
+  pinkblue,
+  heyhello,
+  apple,
+  android,
+  swift
 };
